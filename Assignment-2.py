@@ -11,6 +11,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 # Load the dataset
 df = pd.read_csv('diabetes.csv')
 
+# EDA was done and features were analyzed in the jupyter notebook. Not repeating it here to keep the code and outputs direct & simple.
 
 # Step 2: Data Preprocessing: Handle missing values, normalize/standardize the features, and split the data into training and test sets.
 # Replace zeros with NaN in columns where zero is not biologically feasible
